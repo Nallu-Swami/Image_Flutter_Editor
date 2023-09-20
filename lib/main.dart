@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       children: [
-        buildFilterButton("Greyscale", ColorFilters.greyscale),
+        buildFilterButton("Gryscale", ColorFilters.greyscale),
         buildFilterButton("Sepia", ColorFilters.sepia),
         buildFilterButton("Invert", ColorFilters.invert),
       ],
